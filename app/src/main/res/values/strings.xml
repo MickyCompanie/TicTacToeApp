@@ -9,4 +9,8 @@
     <string name="label2">Player 2</string>
     <string name="submitButton">Submit Names</string>
     <string name="nameHint">Enter Your Name</string>
+
+    <string name="playAgainButton">Play Again</string>
+    <string name="homeButton">Home</string>
+
 </resources>
