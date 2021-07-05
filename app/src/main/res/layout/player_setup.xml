@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".PlayerSetup"
-    android:background="#D7CCC8">
+    android:background="@color/gb">
 
     <TextView
         android:id="@+id/textView2"
@@ -25,7 +25,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label1"
-        android:textColor="#EF5350"
+        android:textColor="@color/tttRed"
         app:layout_constraintBottom_toTopOf="@+id/player1Name"
         app:layout_constraintStart_toStartOf="@+id/player1Name" />
 
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label2"
-        android:textColor="#5C6BC0"
+        android:textColor="#257AA1"
         app:layout_constraintBottom_toTopOf="@+id/player2Name"
         app:layout_constraintStart_toStartOf="@+id/player2Name" />
 
@@ -69,9 +69,9 @@
         android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="76dp"
-        android:background="@drawable/red_button"
         android:onClick="submitButtonClick"
         android:text="@string/submitButton"
+        android:textColor="@color/middleGrey"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"

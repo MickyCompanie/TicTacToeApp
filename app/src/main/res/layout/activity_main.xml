@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#D7CCC8">
+    android:background="@color/gb">
 
     <TextView
         android:id="@+id/textView"
@@ -25,12 +25,26 @@
         android:layout_width="125dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="136dp"
-        android:background="@drawable/blue_button"
         android:onClick="playButtonClick"
         android:text="@string/playButton"
+        android:textColor="#555555"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="aboutButtonClick"
+        android:text="@string/aboutButton"
+        android:textColor="@color/middleGrey"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

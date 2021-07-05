@@ -3,6 +3,11 @@
 
     <string name="homeTitle">Tic Tac Toe</string>
     <string name="playButton">Play</string>
+    <string name="aboutButton">About</string>
+
+    <string name="aboutTitle">About This App</string>
+    <string name="aboutText">Coded With Love By: Companie Micky</string>
+
 
     <string name="playerSetupTitle">Enter Your Name</string>
     <string name="label1">Player 1</string>

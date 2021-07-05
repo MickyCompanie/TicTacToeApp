@@ -18,4 +18,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, PlayerSetup.class);
         startActivity(intent);
     }
+
+    public void aboutButtonClick(View view){
+        Intent intent = new Intent(this, aboutActivity.class);
+        startActivity(intent);
+    }
 }
